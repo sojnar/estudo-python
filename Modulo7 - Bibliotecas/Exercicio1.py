@@ -1,0 +1,10 @@
+import random
+print(dir(random))
+#help(random.randint)
+print(random.randint(1, 100))
+nomes = 'rogerio maria luiz'.split()
+print(nomes)
+#print(random.choice(nomes))
+valor = (random.shuffle(nomes))
+print(valor)
+print(random.sample(range(100), 10))
